@@ -1,0 +1,53 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import Post from "../../components/Post.astro";
+import ColorScript from "../../components/ColorScript.astro";
+
+import { getAllSeries, getSeries } from "../../lib/client";
+
+export async function getStaticPaths() {
+  const data = await getAllSeries();
+  const allSeries = data.publication.seriesList.edges;
+  return allSeries.map((series) => {
+    return {
+      params: { slug: series.node.slug },
+    };
+  });
+}
+const { slug } = Astro.params;
+
+const data = await getSeries(slug);
+const allPosts = data.publication.series.posts.edges;
+
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../config";
+---
+
+<!doctype html>
+<html lang="en-gb">
+  <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  <body>
+    <Header />
+    <main>
+      <content>
+        <ul class="posts-list">
+          {
+            allPosts.map((postData) => (
+              <Post
+                description={postData.node.brief}
+                date={postData.node.publishedAt}
+                slug={postData.node.slug}
+                title={postData.node.title}
+                tags={postData.node.tags}
+                readTime={postData.node.readTimeInMinutes}
+              />
+            ))
+          }
+        </ul>
+      </content>
+    </main>
+    <Footer />
+    <ColorScript />
+  </body>
+</html>

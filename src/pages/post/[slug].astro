@@ -1,0 +1,20 @@
+---
+import BlogPost from "../../layouts/BlogPost.astro";
+import { getAllPosts, getPost } from "../../lib/client";
+
+export async function getStaticPaths() {
+  const data = await getAllPosts();
+  const allPosts = data.publication.posts.edges;
+  return allPosts.map((post) => {
+    return {
+      params: { slug: post.node.slug },
+    };
+  });
+}
+const { slug } = Astro.params;
+const post = await getPost(slug);
+---
+
+<BlogPost content={post}>
+  {post.content && <Fragment set:html={post.content.html} />}
+</BlogPost>
