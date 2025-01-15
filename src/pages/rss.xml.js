@@ -1,5 +1,6 @@
 import rss from "@astrojs/rss";
 import { getAllPosts } from "../lib/client";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
 const data = await getAllPosts();
 const allPosts = data.publication.posts.edges;
