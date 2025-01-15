@@ -30,6 +30,9 @@ export const AllPostSchema = z.object({
     brief: z.string(),
     slug: z.string(),
     readTimeInMinutes: z.number(),
+    content: z.object({
+        html: z.string(),
+    }),
     tags: z.array(z.object({
         name: z.string(),
         slug: z.string(),

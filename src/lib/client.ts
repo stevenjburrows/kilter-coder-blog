@@ -17,7 +17,7 @@ export const getAllPosts = async () => {
         publication(host: "${myHashnodeURL}") {
           id
           title
-          posts(first: 20) {
+          posts(first: 30) {
             pageInfo{
               hasNextPage
               endCursor
@@ -42,6 +42,9 @@ export const getAllPosts = async () => {
                 }
                 publishedAt
                 readTimeInMinutes
+                content {
+                  html
+                }
               }
             }
           }
