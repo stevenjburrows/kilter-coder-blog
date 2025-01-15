@@ -1,0 +1,41 @@
+---
+import { Image } from "astro:assets";
+import mandala from "./mandala.png";
+---
+
+<section>
+  <h1>Welcome to this blog by The Kilted Coder</h1>
+
+  <h2>About me</h2>
+
+  <p>
+    I am a full stack developer working for <a href="https://luminalearning.com"
+      >Lumina Learning</a
+    > and according to Lumina I look like:
+  </p>
+  <div class="image-container">
+    <a
+      href="https://splash.luminalearning.com/AFImswZxxPz2iksIERhx5w**/Gsxbf2tNUIsLmVZEjIn3ZcMpvfPSoSeadYxzOTHuncOyMxq6kSJudaXD3NvmoM_yUJcqGjScYS7fq4sS0eVa9SH6NCamKppFMphLsY1taC6jsJNyJQrBgZxlOfTBi-uX9CZiVmvrTTheFqkPhlk8lHjZYcKblycNdTypfnK2LLhf1ESr5e7eliTk2xKvcJbFbBERb8HE_-C4k9YF_GpZ7eyNoqcmqom69ZzcnO37gKGENvko1L6PSwFgS2975M92X0sAHFSKE8g00DQeomieazUukG3ZWWUSKQ15p3lgX0cBdMABT3Qh44JN3xFukQnzycg2ZWsggzEaXOE3CquVn6fJm8HeBlcatUtoUd9-SHQ*/NHJAJj57L2YwDTjAZEJU7LgNGOO47fr4OyWyq0KjS4N91p-ujcN4AoWELazh2qvj77DseH2pvXUdJs52paNYz1RTD8PlcjhO8kS7I6OU6_QOAKerszmrNvnyp89_pKE6ObMH-HamuZgZrMX23nSEi5rQteYdbk-qljJ_0JF2YVJKACOek03EUgdvSKsrQ4mPpXPvBdDY6kLibBkOF59xhHZo3XSg7_nkUC8fHcQ_Rb9uX1Wygzqpm5AP5TgKlPEYlXSViU3XiAoJGu9xtsKabgkt6fMciDkyrfGTyzj1AGA3KLyIq6mbFfAPjNnQaw7PO0EVTlQYtpb3e3VDW7GDHg**"
+    >
+      <Image
+        class="image"
+        src={mandala}
+        alt="Lumina Spark Mandala"
+        width="400"
+        height="400"
+      />
+    </a>
+  </div>
+
+  <p>
+    Outside of work spend most of my time with family and friends, seeing how
+    technology works and learning new things.
+  </p>
+</section>
+<style>
+  .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+</style>

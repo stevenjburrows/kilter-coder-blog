@@ -1,7 +1,10 @@
-Welcome to this blog template by Steven aka the Kilted Coder
+# Welcome to this blog by The Kilted Coder
 
-It's using Astro and Hashnode. You can [clone it on GitHub](https://github.com/stevenjburrows/retro-astro-blog-template) to use it for yourself, and see how it works! I would _love_ if you told me when you do use it, I love seeing variations on it!
+## About me
+I am a full stack developer working for [Lumina Learning](https://luminalearning.com/) and according to Lumina I am:
 
-This was based on [Cassidoo's template](https://github.com/cassidoo/blahg) and her blogs are work reading [cassidoo](https://cassidoo.co)
+[![Lumina Spark Mandala](/public/lumina-mandla.png)](https://splash.luminalearning.com/AFImswZxxPz2iksIERhx5w**/Gsxbf2tNUIsLmVZEjIn3ZcMpvfPSoSeadYxzOTHuncOyMxq6kSJudaXD3NvmoM_yUJcqGjScYS7fq4sS0eVa9SH6NCamKppFMphLsY1taC6jsJNyJQrBgZxlOfTBi-uX9CZiVmvrTTheFqkPhlk8lHjZYcKblycNdTypfnK2LLhf1ESr5e7eliTk2xKvcJbFbBERb8HE_-C4k9YF_GpZ7eyNoqcmqom69ZzcnO37gKGENvko1L6PSwFgS2975M92X0sAHFSKE8g00DQeomieazUukG3ZWWUSKQ15p3lgX0cBdMABT3Qh44JN3xFukQnzycg2ZWsggzEaXOE3CquVn6fJm8HeBlcatUtoUd9-SHQ*/NHJAJj57L2YwDTjAZEJU7LgNGOO47fr4OyWyq0KjS4N91p-ujcN4AoWELazh2qvj77DseH2pvXUdJs52paNYz1RTD8PlcjhO8kS7I6OU6_QOAKerszmrNvnyp89_pKE6ObMH-HamuZgZrMX23nSEi5rQteYdbk-qljJ_0JF2YVJKACOek03EUgdvSKsrQ4mPpXPvBdDY6kLibBkOF59xhHZo3XSg7_nkUC8fHcQ_Rb9uX1Wygzqpm5AP5TgKlPEYlXSViU3XiAoJGu9xtsKabgkt6fMciDkyrfGTyzj1AGA3KLyIq6mbFfAPjNnQaw7PO0EVTlQYtpb3e3VDW7GDHg**)
+Outside of work spend most of my time with family, seeing how technology works and learning new things about it. I also like to play video games and watch movies.
+
 
 Enjoy!
