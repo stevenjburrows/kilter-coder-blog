@@ -1,3 +1,3 @@
-export const SITE_TITLE = "The Kilted Coder's blog template";
-export const SITE_DESCRIPTION = "A retro blog template for you!";
+export const SITE_TITLE = "The Kilted Coder's blog";
+export const SITE_DESCRIPTION = "The ramblings of a software developer";
 export const HASHNODE_PUBLICATION = "thekiltedcoder";
