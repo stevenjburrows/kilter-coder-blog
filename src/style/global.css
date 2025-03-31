@@ -165,6 +165,7 @@ ul.tags-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	line-height: 2em;
 }
 .tag {
 	display: inline-block;
